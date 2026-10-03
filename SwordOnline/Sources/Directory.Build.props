@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Them boi Claude: khai bao bang ma nguon/dich cho toan bo solution.
+     File nguon co BOM  -> doc UTF-8 (BOM luon thang)
+     File khong co BOM  -> doc GBK (.936) dung nhu ban goc VC6
+     Chuoi ky tu sinh ra o dang GBK, giong het build VC6 cu.
+     GO BO: chi can xoa file nay. -->
+<Project>
+  <ItemDefinitionGroup>
+    <ClCompile>
+      <AdditionalOptions>%(AdditionalOptions) /source-charset:.936 /execution-charset:.936</AdditionalOptions>
+    </ClCompile>
+  </ItemDefinitionGroup>
+</Project>

@@ -1,0 +1,265 @@
+﻿Build started 9/22/2026 11:48:05 PM.
+Logging verbosity is set to: Normal.
+     1>Project "D:\Games\jx1-vs2022-main\jx1-vs2022-main\SwordOnline\Sources\JXAll.sln" on node 1 (Rebuild target(s)).
+     1>ValidateSolutionConfiguration:
+         Building solution configuration "Client Debug|Win32".
+       ValidateProjects:
+         The project "Common" is not selected for building in solution configuration "Client Debug|Win32".
+         The project "Bishop" is not selected for building in solution configuration "Client Debug|Win32".
+         The project "Engine" is not selected for building in solution configuration "Client Debug|Win32".
+         The project "GameServer" is not selected for building in solution configuration "Client Debug|Win32".
+         The project "Goddess" is not selected for building in solution configuration "Client Debug|Win32".
+         The project "Heaven" is not selected for building in solution configuration "Client Debug|Win32".
+         The project "LuaLibDll" is not selected for building in solution configuration "Client Debug|Win32".
+         The project "Rainbow" is not selected for building in solution configuration "Client Debug|Win32".
+         The project "Represent3" is not selected for building in solution configuration "Client Debug|Win32".
+         The project "Game" is not selected for building in solution configuration "Client Debug|Win32".
+         The project "S3Relay" is not selected for building in solution configuration "Client Debug|Win32".
+         The project "S3RelayServer" is not selected for building in solution configuration "Client Debug|Win32".
+         The project "Sword3PaySys" is not selected for building in solution configuration "Client Debug|Win32".
+         The project "JpgLib" is not selected for building in solution configuration "Client Debug|Win32".
+         The project "KMp3Lib" is not selected for building in solution configuration "Client Debug|Win32".
+     1>Project "D:\Games\jx1-vs2022-main\jx1-vs2022-main\SwordOnline\Sources\JXAll.sln" (1) is building "D:\Games\jx1-vs2022-main\jx1-vs2022-main\SwordOnline\Sources\Core\Core.vcxproj" (2) on node 1 (Rebuild target(s)).
+     2>_PrepareForClean:
+         Deleting file ".\ClientDebug\Core.tlog\Core.lastbuildstate".
+       PrepareForBuild:
+         Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+       InitializeBuildStatus:
+         Creating ".\ClientDebug\Core.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+         Touching ".\ClientDebug\Core.tlog\unsuccessfulbuild".
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.44.35207\bin\HostX86\x86\CL.exe /c /I..\engine\src /I..\..\Headers /I..\engine\include /I..\Network /Isrc /Zi /nologo /W0 /WX- /diagnostics:column /MP /Od /Oy- /D _DEBUG /D WIN32 /D _WINDOWS /D _USRDLL /D CORE_EXPORTS /D SWORDONLINE_SHOW_DBUG_INFO /D _VC80_UPGRADE=0x0600 /D _WINDLL /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /Gy- /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Yc"KCore.h" /Fp".\ClientDebug\Core.pch" /Fo".\ClientDebug\\" /Fd".\ClientDebug\vc143.pdb" /FR".\ClientDebug\\" /external:W0 /Gd /TP /analyze- /FC /errorReport:queue  /source-charset:.936 /execution-charset:.936 Src\stdafx.cpp
+     2>cl : command line  warning D9035: option 'Gm' has been deprecated and will be removed in a future release [D:\Games\jx1-vs2022-main\jx1-vs2022-main\SwordOnline\Sources\Core\Core.vcxproj]
+         stdafx.cpp
+         C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.44.35207\bin\HostX86\x86\CL.exe /c /I..\engine\src /I..\..\Headers /I..\engine\include /I..\Network /Isrc /Zi /nologo /W0 /WX- /diagnostics:column /MP /Od /Oy- /D _DEBUG /D WIN32 /D _WINDOWS /D _USRDLL /D CORE_EXPORTS /D SWORDONLINE_SHOW_DBUG_INFO /D _VC80_UPGRADE=0x0600 /D _WINDLL /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /Gy- /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Yu"KCore.h" /Fp".\ClientDebug\Core.pch" /Fo".\ClientDebug\\" /Fd".\ClientDebug\vc143.pdb" /FR".\ClientDebug\\" /external:W0 /Gd /TP /analyze- /FC /errorReport:queue  /source-charset:.936 /execution-charset:.936 Src\KPartnerSkill.cpp Src\KPlayerPartner.cpp Src\KThiefSkill.cpp Src\KMissle.cpp Src\KMissleRes.cpp Src\KMissleSet.cpp Src\KSkillList.cpp Src\KSkillManager.cpp Src\KSkills.cpp Src\KSkillSpecial.cpp Src\KFaction.cpp Src\KGameData.cpp Src\KNpc.cpp Src\KNpcAI.cpp Src\KNpcAttribModify.cpp Src\KNpcDeathCalcExp.cpp Src\KNpcFindPath.cpp Src\KNpcRes.cpp Src\KNpcResList.cpp Src\KNpcResNode.cpp Src\KNpcSet.cpp Src\KNpcTemplate.cpp Src\KPlayer.cpp Src\KPlayerAI.cpp Src\KPlayerChat.cpp Src\KPlayerChatRoom.cpp Src\KPlayerDBFuns.cpp Src\KPlayerFaction.cpp Src\KPlayerMenuState.cpp Src\KPlayerPK.cpp Src\KPlayerSet.cpp Src\KPlayerTask.cpp Src\KPlayerTeam.cpp Src\KPlayerTong.cpp Src\KPlayerTrade.cpp Src\KSprControl.cpp Src\KTongData.cpp Src\KBasPropTbl.CPP Src\KBuySell.cpp Src\KInventory.cpp Src\KItem.cpp Src\KItemChangeRes.cpp Src\KItemGenerator.CPP Src\KItemList.cpp Src\KItemSet.cpp Src\KObj.cpp Src\KObjSet.cpp Src\KSellItem.cpp Src\KViewItem.cpp Src\KCore.cpp Src\KSubWorld.cpp Src\KSubWorldSet.cpp Src\KWeatherMgr.cpp Src\KRegion.cpp Src\KWorldMsg.cpp Src\KMath.cpp Src\KProtocol.cpp Src\KProtocolProcess.cpp Src\ScriptFuns.cpp Src\KScriptValueSet.cpp Src\KSortScript.cpp Src\CoreShell.cpp Src\Scene\KIpotBranch.cpp Src\Scene\KIpotLeaf.cpp Src\Scene\KScenePlaceC.cpp Src\Scene\KScenePlaceRegionC.cpp Src\Scene\KWeather.cpp Src\Scene\SceneMath.cpp Src\Scene\ScenePlaceMapC.cpp Src\CoreDrawGameObj.cpp Src\ImgRef.cpp Src\KMagicDesc.cpp Src\KGMCommand.cpp Src\KTaskFuns.cpp Src\KOption.cpp Src\KMapMusic.cpp Src\KLadder.cpp
+     2>cl : command line  warning D9035: option 'Gm' has been deprecated and will be removed in a future release [D:\Games\jx1-vs2022-main\jx1-vs2022-main\SwordOnline\Sources\Core\Core.vcxproj]
+     2>cl : command line  warning D9030: '/Gm' is incompatible with multiprocessing; ignoring /MP switch [D:\Games\jx1-vs2022-main\jx1-vs2022-main\SwordOnline\Sources\Core\Core.vcxproj]
+         KLadder.cpp
+         KMapMusic.cpp
+         KOption.cpp
+         KTaskFuns.cpp
+         KGMCommand.cpp
+         KMagicDesc.cpp
+         ImgRef.cpp
+         CoreDrawGameObj.cpp
+         ScenePlaceMapC.cpp
+         SceneMath.cpp
+         KWeather.cpp
+         KScenePlaceRegionC.cpp
+         KScenePlaceC.cpp
+         KIpotLeaf.cpp
+         KIpotBranch.cpp
+         CoreShell.cpp
+         KSortScript.cpp
+         KScriptValueSet.cpp
+         ScriptFuns.cpp
+         KProtocolProcess.cpp
+         Generating Code...
+         Compiling...
+         KProtocol.cpp
+         KMath.cpp
+         KWorldMsg.cpp
+         KRegion.cpp
+         KWeatherMgr.cpp
+         KSubWorldSet.cpp
+         KSubWorld.cpp
+         KCore.cpp
+         KViewItem.cpp
+         KSellItem.cpp
+         KObjSet.cpp
+         KObj.cpp
+         KItemSet.cpp
+         KItemList.cpp
+         KItemGenerator.CPP
+         KItemChangeRes.cpp
+         KItem.cpp
+         KInventory.cpp
+         KBuySell.cpp
+         KBasPropTbl.CPP
+         Generating Code...
+         Compiling...
+         KTongData.cpp
+         KSprControl.cpp
+         KPlayerTrade.cpp
+         KPlayerTong.cpp
+         KPlayerTeam.cpp
+         KPlayerTask.cpp
+         KPlayerSet.cpp
+         KPlayerPK.cpp
+         KPlayerMenuState.cpp
+         KPlayerFaction.cpp
+         KPlayerDBFuns.cpp
+         KPlayerChatRoom.cpp
+         KPlayerChat.cpp
+         KPlayerAI.cpp
+         KPlayer.cpp
+         KNpcTemplate.cpp
+         KNpcSet.cpp
+         KNpcResNode.cpp
+         KNpcResList.cpp
+         KNpcRes.cpp
+         Generating Code...
+         Compiling...
+         KNpcFindPath.cpp
+         KNpcDeathCalcExp.cpp
+         KNpcAttribModify.cpp
+         KNpcAI.cpp
+         KNpc.cpp
+         KGameData.cpp
+         KFaction.cpp
+         KSkillSpecial.cpp
+         KSkills.cpp
+         KSkillManager.cpp
+         KSkillList.cpp
+         KMissleSet.cpp
+         KMissleRes.cpp
+         KMissle.cpp
+         KThiefSkill.cpp
+         KPlayerPartner.cpp
+         KPartnerSkill.cpp
+         Generating Code...
+         C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.44.35207\bin\HostX86\x86\CL.exe /c /I..\engine\src /I..\..\Headers /I..\engine\include /I..\Network /Isrc /Zi /nologo /W0 /WX- /diagnostics:column /MP /Od /Oy- /D _DEBUG /D WIN32 /D _WINDOWS /D _USRDLL /D CORE_EXPORTS /D SWORDONLINE_SHOW_DBUG_INFO /D _VC80_UPGRADE=0x0600 /D _WINDLL /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /Gy- /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo".\ClientDebug\\" /Fd".\ClientDebug\vc143.pdb" /FR".\ClientDebug\\" /external:W0 /Gd /TP /analyze- /FC /errorReport:queue  /source-charset:.936 /execution-charset:.936 Src\Scene\KIpoTree.cpp
+     2>cl : command line  warning D9035: option 'Gm' has been deprecated and will be removed in a future release [D:\Games\jx1-vs2022-main\jx1-vs2022-main\SwordOnline\Sources\Core\Core.vcxproj]
+         KIpoTree.cpp
+     2>C:\Program Files\Microsoft Visual Studio\2022\Enterprise\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(1402,5): warning MSB8012: TargetPath(D:\Games\jx1-vs2022-main\jx1-vs2022-main\SwordOnline\Sources\Core\ClientDebug\Core.dll) does not match the Linker's OutputFile property value (D:\Games\jx1-vs2022-main\jx1-vs2022-main\SwordOnline\Sources\Core\ClientDebug\CoreClient.dll). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile). [D:\Games\jx1-vs2022-main\jx1-vs2022-main\SwordOnline\Sources\Core\Core.vcxproj]
+     2>C:\Program Files\Microsoft Visual Studio\2022\Enterprise\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(1404,5): warning MSB8012: TargetName(Core) does not match the Linker's OutputFile property value (CoreClient). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile). [D:\Games\jx1-vs2022-main\jx1-vs2022-main\SwordOnline\Sources\Core\Core.vcxproj]
+       Link:
+         C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.44.35207\bin\HostX86\x86\link.exe /ERRORREPORT:QUEUE /OUT:"ClientDebug\CoreClient.dll" /INCREMENTAL:NO /NOLOGO /LIBPATH:../../lib/ odbc32.lib odbccp32.lib lualibdll.lib Shlwapi.lib Winmm.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:".\ClientDebug\Core.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\ClientDebug\CoreClient.lib" /MACHINE:X86 /SAFESEH /DLL .\ClientDebug\KPartnerSkill.obj
+         .\ClientDebug\KPlayerPartner.obj
+         .\ClientDebug\KThiefSkill.obj
+         .\ClientDebug\KMissle.obj
+         .\ClientDebug\KMissleRes.obj
+         .\ClientDebug\KMissleSet.obj
+         .\ClientDebug\KSkillList.obj
+         .\ClientDebug\KSkillManager.obj
+         .\ClientDebug\KSkills.obj
+         .\ClientDebug\KSkillSpecial.obj
+         .\ClientDebug\KFaction.obj
+         .\ClientDebug\KGameData.obj
+         .\ClientDebug\KNpc.obj
+         .\ClientDebug\KNpcAI.obj
+         .\ClientDebug\KNpcAttribModify.obj
+         .\ClientDebug\KNpcDeathCalcExp.obj
+         .\ClientDebug\KNpcFindPath.obj
+         .\ClientDebug\KNpcRes.obj
+         .\ClientDebug\KNpcResList.obj
+         .\ClientDebug\KNpcResNode.obj
+         .\ClientDebug\KNpcSet.obj
+         .\ClientDebug\KNpcTemplate.obj
+         .\ClientDebug\KPlayer.obj
+         .\ClientDebug\KPlayerAI.obj
+         .\ClientDebug\KPlayerChat.obj
+         .\ClientDebug\KPlayerChatRoom.obj
+         .\ClientDebug\KPlayerDBFuns.obj
+         .\ClientDebug\KPlayerFaction.obj
+         .\ClientDebug\KPlayerMenuState.obj
+         .\ClientDebug\KPlayerPK.obj
+         .\ClientDebug\KPlayerSet.obj
+         .\ClientDebug\KPlayerTask.obj
+         .\ClientDebug\KPlayerTeam.obj
+         .\ClientDebug\KPlayerTong.obj
+         .\ClientDebug\KPlayerTrade.obj
+         .\ClientDebug\KSprControl.obj
+         .\ClientDebug\KTongData.obj
+         .\ClientDebug\KBasPropTbl.obj
+         .\ClientDebug\KBuySell.obj
+         .\ClientDebug\KInventory.obj
+         .\ClientDebug\KItem.obj
+         .\ClientDebug\KItemChangeRes.obj
+         .\ClientDebug\KItemGenerator.obj
+         .\ClientDebug\KItemList.obj
+         .\ClientDebug\KItemSet.obj
+         .\ClientDebug\KObj.obj
+         .\ClientDebug\KObjSet.obj
+         .\ClientDebug\KSellItem.obj
+         .\ClientDebug\KViewItem.obj
+         .\ClientDebug\KCore.obj
+         .\ClientDebug\KSubWorld.obj
+         .\ClientDebug\KSubWorldSet.obj
+         .\ClientDebug\KWeatherMgr.obj
+         .\ClientDebug\KRegion.obj
+         .\ClientDebug\KWorldMsg.obj
+         .\ClientDebug\KMath.obj
+         .\ClientDebug\KProtocol.obj
+         .\ClientDebug\KProtocolProcess.obj
+         .\ClientDebug\ScriptFuns.obj
+         .\ClientDebug\KScriptValueSet.obj
+         .\ClientDebug\KSortScript.obj
+         .\ClientDebug\CoreShell.obj
+         .\ClientDebug\KIpotBranch.obj
+         .\ClientDebug\KIpotLeaf.obj
+         .\ClientDebug\KIpoTree.obj
+         .\ClientDebug\KScenePlaceC.obj
+         .\ClientDebug\KScenePlaceRegionC.obj
+         .\ClientDebug\KWeather.obj
+         .\ClientDebug\SceneMath.obj
+         .\ClientDebug\ScenePlaceMapC.obj
+         .\ClientDebug\CoreDrawGameObj.obj
+         .\ClientDebug\ImgRef.obj
+         .\ClientDebug\KMagicDesc.obj
+         .\ClientDebug\KGMCommand.obj
+         .\ClientDebug\KTaskFuns.obj
+         .\ClientDebug\KOption.obj
+         .\ClientDebug\KMapMusic.obj
+         .\ClientDebug\KLadder.obj
+         .\ClientDebug\stdafx.obj
+         ..\..\Lib\debug\engine.lib
+         ..\..\Lib\debug\common.lib
+         Src\USBKey\EP1KDL20.LIB
+         Src\USBKey\EpsForJoLib.lib
+            Creating library .\ClientDebug\CoreClient.lib and object .\ClientDebug\CoreClient.exp
+         Core.vcxproj -> D:\Games\jx1-vs2022-main\jx1-vs2022-main\SwordOnline\Sources\Core\ClientDebug\Core.dll
+       BscMake:
+         C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.44.35207\bin\HostX86\x86\bscmake.exe /nologo /o".\ClientDebug\Core.bsc" .\ClientDebug\KPartnerSkill.sbr .\ClientDebug\KPlayerPartner.sbr .\ClientDebug\KThiefSkill.sbr .\ClientDebug\KMissle.sbr .\ClientDebug\KMissleRes.sbr .\ClientDebug\KMissleSet.sbr .\ClientDebug\KSkillList.sbr .\ClientDebug\KSkillManager.sbr .\ClientDebug\KSkills.sbr .\ClientDebug\KSkillSpecial.sbr .\ClientDebug\KFaction.sbr .\ClientDebug\KGameData.sbr .\ClientDebug\KNpc.sbr .\ClientDebug\KNpcAI.sbr .\ClientDebug\KNpcAttribModify.sbr .\ClientDebug\KNpcDeathCalcExp.sbr .\ClientDebug\KNpcFindPath.sbr .\ClientDebug\KNpcRes.sbr .\ClientDebug\KNpcResList.sbr .\ClientDebug\KNpcResNode.sbr .\ClientDebug\KNpcSet.sbr .\ClientDebug\KNpcTemplate.sbr .\ClientDebug\KPlayer.sbr .\ClientDebug\KPlayerAI.sbr .\ClientDebug\KPlayerChat.sbr .\ClientDebug\KPlayerChatRoom.sbr .\ClientDebug\KPlayerDBFuns.sbr .\ClientDebug\KPlayerFaction.sbr .\ClientDebug\KPlayerMenuState.sbr .\ClientDebug\KPlayerPK.sbr .\ClientDebug\KPlayerSet.sbr .\ClientDebug\KPlayerTask.sbr .\ClientDebug\KPlayerTeam.sbr .\ClientDebug\KPlayerTong.sbr .\ClientDebug\KPlayerTrade.sbr .\ClientDebug\KSprControl.sbr .\ClientDebug\KTongData.sbr .\ClientDebug\KBasPropTbl.sbr .\ClientDebug\KBuySell.sbr .\ClientDebug\KInventory.sbr .\ClientDebug\KItem.sbr .\ClientDebug\KItemChangeRes.sbr .\ClientDebug\KItemGenerator.sbr .\ClientDebug\KItemList.sbr .\ClientDebug\KItemSet.sbr .\ClientDebug\KObj.sbr .\ClientDebug\KObjSet.sbr .\ClientDebug\KSellItem.sbr .\ClientDebug\KViewItem.sbr .\ClientDebug\KCore.sbr .\ClientDebug\KSubWorld.sbr .\ClientDebug\KSubWorldSet.sbr .\ClientDebug\KWeatherMgr.sbr .\ClientDebug\KRegion.sbr .\ClientDebug\KWorldMsg.sbr .\ClientDebug\KMath.sbr .\ClientDebug\KProtocol.sbr .\ClientDebug\KProtocolProcess.sbr .\ClientDebug\ScriptFuns.sbr .\ClientDebug\KScriptValueSet.sbr .\ClientDebug\KSortScript.sbr .\ClientDebug\CoreShell.sbr .\ClientDebug\KIpotBranch.sbr .\ClientDebug\KIpotLeaf.sbr .\ClientDebug\KIpoTree.sbr .\ClientDebug\KScenePlaceC.sbr .\ClientDebug\KScenePlaceRegionC.sbr .\ClientDebug\KWeather.sbr .\ClientDebug\SceneMath.sbr .\ClientDebug\ScenePlaceMapC.sbr .\ClientDebug\CoreDrawGameObj.sbr .\ClientDebug\ImgRef.sbr .\ClientDebug\KMagicDesc.sbr .\ClientDebug\KGMCommand.sbr .\ClientDebug\KTaskFuns.sbr .\ClientDebug\KOption.sbr .\ClientDebug\KMapMusic.sbr .\ClientDebug\KLadder.sbr .\ClientDebug\stdafx.sbr
+       PostBuildEvent:
+         md ..\..\..\bin\client\debug
+         copy ClientDebug\CoreClient.dll ..\..\..\bin\client\CoreClient.dll
+         copy ClientDebug\CoreClient.dll ..\..\..\bin\client\debug\CoreClient.dll
+         
+         md ..\..\lib\debug
+         copy ClientDebug\CoreClient.lib ..\..\lib\debug\CoreClient.lib
+         :VCEnd
+         A subdirectory or file ..\..\..\bin\client\debug already exists.
+                 1 file(s) copied.
+                 1 file(s) copied.
+         A subdirectory or file ..\..\lib\debug already exists.
+                 1 file(s) copied.
+       FinalizeBuildStatus:
+         Deleting file ".\ClientDebug\Core.tlog\unsuccessfulbuild".
+         Touching ".\ClientDebug\Core.tlog\Core.lastbuildstate".
+     2>Done Building Project "D:\Games\jx1-vs2022-main\jx1-vs2022-main\SwordOnline\Sources\Core\Core.vcxproj" (Rebuild target(s)).
+     1>Done Building Project "D:\Games\jx1-vs2022-main\jx1-vs2022-main\SwordOnline\Sources\JXAll.sln" (Rebuild target(s)).
+
+Build succeeded.
+
+       "D:\Games\jx1-vs2022-main\jx1-vs2022-main\SwordOnline\Sources\JXAll.sln" (Rebuild target) (1) ->
+       "D:\Games\jx1-vs2022-main\jx1-vs2022-main\SwordOnline\Sources\Core\Core.vcxproj" (Rebuild target) (2) ->
+       (ClCompile target) -> 
+         cl : command line  warning D9035: option 'Gm' has been deprecated and will be removed in a future release [D:\Games\jx1-vs2022-main\jx1-vs2022-main\SwordOnline\Sources\Core\Core.vcxproj]
+
+
+       "D:\Games\jx1-vs2022-main\jx1-vs2022-main\SwordOnline\Sources\JXAll.sln" (Rebuild target) (1) ->
+       "D:\Games\jx1-vs2022-main\jx1-vs2022-main\SwordOnline\Sources\Core\Core.vcxproj" (Rebuild target) (2) ->
+         cl : command line  warning D9035: option 'Gm' has been deprecated and will be removed in a future release [D:\Games\jx1-vs2022-main\jx1-vs2022-main\SwordOnline\Sources\Core\Core.vcxproj]
+         cl : command line  warning D9030: '/Gm' is incompatible with multiprocessing; ignoring /MP switch [D:\Games\jx1-vs2022-main\jx1-vs2022-main\SwordOnline\Sources\Core\Core.vcxproj]
+
+
+       "D:\Games\jx1-vs2022-main\jx1-vs2022-main\SwordOnline\Sources\JXAll.sln" (Rebuild target) (1) ->
+       "D:\Games\jx1-vs2022-main\jx1-vs2022-main\SwordOnline\Sources\Core\Core.vcxproj" (Rebuild target) (2) ->
+         cl : command line  warning D9035: option 'Gm' has been deprecated and will be removed in a future release [D:\Games\jx1-vs2022-main\jx1-vs2022-main\SwordOnline\Sources\Core\Core.vcxproj]
+
+
+       "D:\Games\jx1-vs2022-main\jx1-vs2022-main\SwordOnline\Sources\JXAll.sln" (Rebuild target) (1) ->
+       "D:\Games\jx1-vs2022-main\jx1-vs2022-main\SwordOnline\Sources\Core\Core.vcxproj" (Rebuild target) (2) ->
+       (DoLinkOutputFilesMatch target) -> 
+         C:\Program Files\Microsoft Visual Studio\2022\Enterprise\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(1402,5): warning MSB8012: TargetPath(D:\Games\jx1-vs2022-main\jx1-vs2022-main\SwordOnline\Sources\Core\ClientDebug\Core.dll) does not match the Linker's OutputFile property value (D:\Games\jx1-vs2022-main\jx1-vs2022-main\SwordOnline\Sources\Core\ClientDebug\CoreClient.dll). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile). [D:\Games\jx1-vs2022-main\jx1-vs2022-main\SwordOnline\Sources\Core\Core.vcxproj]
+
+
+       "D:\Games\jx1-vs2022-main\jx1-vs2022-main\SwordOnline\Sources\JXAll.sln" (Rebuild target) (1) ->
+       "D:\Games\jx1-vs2022-main\jx1-vs2022-main\SwordOnline\Sources\Core\Core.vcxproj" (Rebuild target) (2) ->
+         C:\Program Files\Microsoft Visual Studio\2022\Enterprise\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(1404,5): warning MSB8012: TargetName(Core) does not match the Linker's OutputFile property value (CoreClient). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile). [D:\Games\jx1-vs2022-main\jx1-vs2022-main\SwordOnline\Sources\Core\Core.vcxproj]
+
+    6 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:08.52
